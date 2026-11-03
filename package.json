@@ -1,0 +1,14 @@
+{
+	"name": "ab-markup",
+	"version": "0.1.0",
+	"description": "AB Markup Language parser and compiler",
+	"type": "module",
+	"bin": {
+		"ab": "./ab.js"
+	},
+	"scripts": {
+		"test": "node --test",
+		"build": "node ab.js build",
+		"serve": "node ab.js serve"
+	}
+}
